@@ -12,9 +12,14 @@ class PostController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+    public function top()
+    {
+        return view('posts.top');
+    }
+
     public function index()
     {
-        //
+        return view('posts.index');
     }
 
     /**
