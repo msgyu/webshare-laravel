@@ -1,8 +1,24 @@
 // Fonts
-@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url("https://fonts.googleapis.com/css?family=Nunito");
 
 // Variables
-@import 'variables';
+@import "variables";
+
+//reset
+@import "reset";
+
+//color
+@import "./color.scss";
 
 // Bootstrap
-@import '~bootstrap/scss/bootstrap';
+@import "~bootstrap/scss/bootstrap";
+
+//mixin
+@import "./mixin/registration_mixins";
+@import "./mixin/top-page_mixins";
+@import "./mixin/post_mixins.scss";
+
+@import "./module/header.scss";
+@import "./module/error.scss";
+@import "./module/main.scss";
+@import "./lp/top";

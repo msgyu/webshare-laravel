@@ -1,0 +1,76 @@
+.header {
+    height: 63px;
+    background: #fff;
+    margin: 0 24px;
+    .btn {
+        @include btn;
+        font-size: 12px;
+        height: 37px;
+        line-height: 24px;
+    }
+    .registration {
+        background: $green;
+        color: #fff;
+    }
+    ul {
+        line-height: 63px;
+        li {
+            .avatar {
+                border-radius: 50%;
+                width: 37px;
+                height: 37px;
+            }
+            display: inline-block;
+        }
+    }
+    .search_wap {
+        @include search_wap;
+        float: right;
+    }
+    .logo {
+        line-height: 63px;
+        font-size: 25px;
+        font-weight: bold;
+        margin-left: 10px;
+        color: $green;
+        margin: 0;
+        &-image {
+            float: left;
+            width: 56px;
+            height: 57px;
+        }
+        &-ul {
+            height: 63px;
+            float: left;
+            &-li {
+                height: 45px;
+                display: list-item;
+                line-height: 45px;
+                &_sub {
+                    height: 18px;
+                    display: list-item;
+                    line-height: 18px;
+                }
+            }
+        }
+        &-h1 {
+            font-size: 32px;
+        }
+        &-subtitle {
+            font-size: 12px;
+        }
+    }
+}
+
+.notifications {
+    color: $white;
+    text-align: center;
+
+    .notice {
+        background-color: lightBlue;
+    }
+
+    .alert {
+        background-color: alert_orange;
+    }
+}
