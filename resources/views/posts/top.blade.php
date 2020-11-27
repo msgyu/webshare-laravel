@@ -20,7 +20,7 @@
       </ul>
     </div>
     <div class="lp_image">
-      <img alt="イメージ画像" src="/assets/lp/top-image-14694cc4b120e0d5f7d21da3960d7b364e2b4c5988740a2df33bac6fb72ff639.png">
+      <img alt="イメージ画像" src="{{ asset('./img/lp/top-image.png') }}">
     </div>
   </div>
 </div>
