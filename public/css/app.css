@@ -11760,7 +11760,7 @@ a.text-dark:focus {
   margin: auto;
   padding-left: 25px;
   margin-bottom: 5px;
-  background: image_url("./lp/lp/icn-check2.png") no-repeat 0 4px;
+  background: url(/images/icn-check2.png?5bca8b5a19bb51428e354f29622bd8b9) no-repeat 0 4px;
   background-size: 15px auto;
   font-size: 14px;
   text-align: left;
