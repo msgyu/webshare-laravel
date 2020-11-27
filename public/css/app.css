@@ -11590,7 +11590,7 @@ a.text-dark:focus {
   width: 49%;
   max-width: 580px;
   padding: 15px 0 15px 40px;
-  background: url("'./img/lp/icn-check.png'") no-repeat 5px 40%;
+  background: url(/images/icn-check.png?e379f1a6a02d9920225057e491e092e6) no-repeat 5px 40%;
   background-size: auto 20px;
   font-size: 18px;
 }
