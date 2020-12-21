@@ -12,7 +12,7 @@
       <p>コラボしたくても相手が見つからない悩みを解決。WEBSHAREではコラボ希望のユーザーが登録しているので、効率的にコラボ相手を見つけることができます。報酬の支払いも管理しているので、報酬未払いなどのリスクなく交渉することができます。</p>
       <ul class="blue-Btn_ul">
         <li class="blue-Btn_ul_li">
-          <a class="blue-Btn" href="/">サイトをみる</a>
+          <a class="blue-Btn" href="{{ route('posts.index')}}">サイトをみる</a>
         </li>
         <li class="blue-Btn_ul_li">
           <a class="blue-Btn" href="/users/sign_in">新規登録</a>
