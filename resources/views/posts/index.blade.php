@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="container-fluid">
+<div class="posts_container-fluid">
   @include('layouts.side')
   @include('layouts.main')
 </div>
