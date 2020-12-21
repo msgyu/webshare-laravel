@@ -15,7 +15,7 @@
           <a class="blue-Btn" href="{{ route('posts.index')}}">サイトをみる</a>
         </li>
         <li class="blue-Btn_ul_li">
-          <a class="blue-Btn" href="/users/sign_in">新規登録</a>
+          <a class="blue-Btn" href="{{ route('register')}}">新規登録</a>
         </li>
       </ul>
     </div>
@@ -132,7 +132,7 @@
       </li>
     </ul>
     <div class="lp-btn">
-      <a class="lp-btn_link" href="/">登録する</a>
+      <a class="lp-btn_link" href="{{ route('register')}}">登録する</a>
     </div>
   </div>
 </section>
