@@ -10283,6 +10283,7 @@ dl {
   overflow: scroll;
   width: calc(100% - 258px);
   display: block;
+  background: #f1f8fc;
 }
 .main-h2 {
   font-size: 30px;
@@ -10833,6 +10834,10 @@ dl {
     background-size: 15px auto;
     font-size: 14px;
   }
+}
+
+html {
+  background: #f1f8fc;
 }
 
 .post_ontainer-fluid {

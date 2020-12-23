@@ -6,6 +6,7 @@
     overflow: scroll;
     width: calc(100% - 258px);
     display: block;
+    background: $background_color;
     &-h2 {
         font-size: 30px;
         color: $green;

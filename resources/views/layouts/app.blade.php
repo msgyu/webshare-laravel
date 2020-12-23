@@ -27,9 +27,8 @@
         @include('layouts.main-header')
         @show
 
-        <main>
-            @yield('content')
-        </main>
+        @yield('content')
+
     </div>
 </body>
 

@@ -24,6 +24,10 @@
 @import "./module/side.scss";
 @import "./lp/top";
 
+html {
+    background: $background_color;
+}
+
 .post_ontainer-fluid {
     background: $background_color;
     margin: 0;
