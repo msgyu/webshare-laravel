@@ -43,9 +43,9 @@
             height: 63px;
             float: left;
             &-li {
-                height: 45px;
+                height: 38px;
                 display: list-item;
-                line-height: 45px;
+                line-height: 38px;
                 &_sub {
                     height: 18px;
                     display: list-item;
@@ -55,6 +55,7 @@
         }
         &-h1 {
             font-size: 32px;
+            margin: 0;
         }
         &-subtitle {
             font-size: 12px;

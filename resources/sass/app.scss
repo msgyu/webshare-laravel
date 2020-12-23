@@ -4,14 +4,14 @@
 // Variables
 @import "variables";
 
+// Bootstrap
+@import "~bootstrap/scss/bootstrap";
+
 //reset
 @import "reset";
 
 //color
 @import "./color.scss";
-
-// Bootstrap
-@import "~bootstrap/scss/bootstrap";
 
 //mixin
 @import "./mixin/registration_mixins";
@@ -23,3 +23,9 @@
 @import "./module/main.scss";
 @import "./module/side.scss";
 @import "./lp/top";
+
+.post_ontainer-fluid {
+    background: $background_color;
+    margin: 0;
+    padding: 0;
+}

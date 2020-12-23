@@ -15,12 +15,12 @@ html {
         "hiragino kaku gothic pron", sans-serif;
 }
 /*
-  TODO remove settings on BODY since we can't namespace it.
-*/
+    TODO remove settings on BODY since we can't namespace it.
+  */
 /*
-  TODO test putting a class on HEAD.
-      - Fails on FF.
-*/
+    TODO test putting a class on HEAD.
+        - Fails on FF.
+  */
 * {
     box-sizing: border-box;
 }
@@ -61,8 +61,8 @@ img {
     border: 0;
 }
 /*
-  TODO think about hanlding inheritence differently, maybe letting IE6 fail a bit...
-*/
+    TODO think about hanlding inheritence differently, maybe letting IE6 fail a bit...
+  */
 address,
 caption,
 cite,
@@ -153,4 +153,9 @@ button {
 a {
     text-decoration: none;
     color: inherit;
+}
+ol,
+ul,
+dl {
+    margin: 0;
 }
