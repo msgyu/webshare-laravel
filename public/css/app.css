@@ -10434,7 +10434,7 @@ dl {
 .side .search-side {
   min-height: 700px;
   background: #fff;
-  padding: 20px 24px 0 24px;
+  padding: 20px 24px 0 35px;
   -webkit-box-shadow: #e8e8e8 0 4px 0;
 }
 .side .search-side_child {
