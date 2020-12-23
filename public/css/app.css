@@ -10281,7 +10281,7 @@ dl {
 .main {
   padding: 36px 24px;
   overflow: scroll;
-  width: calc(100% - 258px);
+  width: calc(100% - 254px);
   display: block;
   background: #f1f8fc;
 }
@@ -10844,4 +10844,9 @@ html {
   background: #f1f8fc;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+.row {
+  margin-right: 0px;
 }
