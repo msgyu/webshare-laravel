@@ -32,28 +32,6 @@
       </select>
     </div>
     <div class="search-side_child">
-      <p>メディア</p>
-      <select class="search-side_child_select form-control">
-        <option></option>
-        <option>Youtube</option>
-        <option>Twitter</option>
-        <option>instagram</option>
-      </select>
-    </div>
-    <div class="search-side_child">
-      <p>フォロワー数</p>
-      <select class="search-side_child_select form-control">
-        <option></option>
-        <option>~1000人</option>
-        <option>~5000人</option>
-        <option>~10000人</option>
-        <option>~50000人</option>
-        <option>~10万人</option>
-        <option>~50万人</option>
-        <option>~100万人</option>
-      </select>
-    </div>
-    <div class="search-side_child">
       <p>料金</p>
       <select class="search-side_child_select form-control">
         <option></option>
