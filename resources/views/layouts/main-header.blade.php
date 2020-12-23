@@ -1,7 +1,7 @@
 <div class="header clearfix">
   <ul class="float-right">
     <li>
-      <a class="btn login" href="/users/sign_in">ログイン/新規登録</a>
+      <a class="btn login" href="{{ route('login')}}">ログイン/新規登録</a>
     </li>
   </ul>
   <div class="search_wap">
