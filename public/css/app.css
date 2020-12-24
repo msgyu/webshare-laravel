@@ -10850,3 +10850,8 @@ html {
 .row {
   margin-right: 0px;
 }
+
+.login-container {
+  padding: 30px 0;
+  min-height: 680px;
+}
