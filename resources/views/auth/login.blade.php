@@ -4,7 +4,10 @@
 <div class="container login-container">
     <div class="row justify-content-center login-content">
         <div class="col-md-4 d-none d-md-block">
-            <p>aaaa</p>
+            <h1>WEBSHAREにようこそ</h1>
+            <p>WEBSHAREは、影響力を共有して共に影響力を伸ばす場所です。<br>
+                いっしょに輪を広げて、影響力を広めていきましょう。
+            </p>
         </div>
         <div class="col-md-8">
             <div class="card">
